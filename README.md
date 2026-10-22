@@ -1,6 +1,4 @@
-# StudentHub (merged portal)
-
-Your HTML/CSS portal ("wdf smit") combined with the PHP + MySQL features of the first portal (practicals 7-15).
+# StudentHub
 
 ## Setup (XAMPP, Windows)
 1. Put this folder at `C:\xampp\htdocs\StudentHub` (so `Home.php` is directly inside it).
