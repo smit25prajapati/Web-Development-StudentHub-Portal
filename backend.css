@@ -1,0 +1,37 @@
+*{box-sizing:border-box}body{font-family:Arial,sans-serif;background:#f2f2f2;color:#222;margin:0;padding:20px;line-height:1.5}.site-header{max-width:1000px;margin:0 auto 24px;padding:18px 22px;background:#fff;border:1px solid #ccc;border-radius:6px;text-align:center}.site-header a{color:blue;text-decoration:none;margin:0 8px}.panel{max-width:700px;margin:24px auto;padding:24px;background:#fff;border:1px solid #ccc;border-radius:6px}.panel.narrow{max-width:500px}h1,h2{text-align:center}label{display:block;font-weight:bold;margin:14px 0 5px}input,select,textarea{width:100%;padding:10px;border:1px solid #bbb;border-radius:4px;font:inherit;background:#fff}textarea{resize:vertical}button,.btn{display:inline-block;background:#1d4ed8;color:white;border:0;border-radius:4px;padding:10px 16px;cursor:pointer;text-decoration:none;font:inherit;margin-top:12px}button:hover,.btn:hover{background:#1743b0}.message{padding:12px;border-radius:4px;margin:14px 0}.success{background:#e8f5e9;border:1px solid #9ccc9c;color:#205b26}.error{background:#ffebee;border:1px solid #e6a0a8;color:#8a1c26}.muted{color:#555}.links{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:18px}table{width:100%;border-collapse:collapse;margin-top:15px;background:#fff}th,td{border:1px solid #ccc;padding:9px;text-align:left;overflow-wrap:anywhere}th{background:#e8edf7}.event{border:1px solid #ddd;border-radius:5px;padding:16px;margin:15px 0}.back{display:block;text-align:center;margin:20px auto;color:blue}@media(max-width:600px){body{padding:10px}.panel{padding:16px}}
+
+/* ---- merged portal additions (same grey/white/blue theme) ---- */
+.container{max-width:1000px;margin:0 auto}
+.container .panel{max-width:none;margin:0 0 20px}
+.container .panel.narrow{max-width:500px;margin:24px auto}
+.alert{padding:12px;border-radius:4px;margin:14px 0}
+.info{background:#eef4ff;border:1px solid #b7c9f2;color:#1d3f91}
+.eyebrow{color:#1d4ed8;font-weight:bold;font-size:12px;letter-spacing:1px;margin:0 0 6px;text-align:center}
+.page-heading{text-align:center;margin:8px 0 22px}.page-heading h1{margin:0 0 6px}
+.card{background:#fff;border:1px solid #ccc;border-radius:6px;padding:20px}
+.card h3{margin-top:0}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.field{margin-bottom:6px}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:16px}
+.toolbar input,.toolbar select{width:auto;min-width:150px;flex:1}
+.toolbar .btn,.toolbar button{margin-top:0;white-space:nowrap}
+.btn-light{background:#e8edf7;color:#1d4ed8}.btn-light:hover{background:#d5dff3}
+.btn-danger{background:#c2413a}.btn-danger:hover{background:#a3332d}
+.btn-small{padding:6px 10px;font-size:13px;margin-top:6px}
+.inline-form{display:inline}
+.table-wrap{overflow-x:auto}
+.data-table{margin-top:0;font-size:14px}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:0 0 20px}
+.stat-card{background:#fff;border:1px solid #ccc;border-radius:6px;padding:18px;text-align:center}
+.stat-card small{display:block;color:#555}.stat-card strong{font-size:30px;color:#1d4ed8}
+.event-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.event-card{background:#fff;border:1px solid #ccc;border-radius:6px;overflow:hidden}
+.event-card img,.poster-placeholder{width:100%;height:160px;object-fit:cover;display:grid;place-items:center;background:#e8edf7;color:#1d4ed8;font-weight:bold}
+.event-body{padding:16px}.event-body h3{margin:10px 0 6px;text-align:left}
+.pill{display:inline-block;background:#e8edf7;color:#1d4ed8;font-size:12px;font-weight:bold;padding:3px 9px;border-radius:12px}
+.help-text{font-size:12px;color:#555}
+.api-list{display:grid;gap:10px}
+.api-item{border:1px solid #ddd;border-radius:5px;padding:12px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.site-footer{max-width:1000px;margin:30px auto 0;text-align:center;color:#555;font-size:14px}
+@media(max-width:800px){.grid-3,.event-grid,.form-grid{grid-template-columns:1fr}}

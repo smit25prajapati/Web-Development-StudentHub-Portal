@@ -1,0 +1,142 @@
+[
+    {
+        "name": "B.Tech Computer Engineering",
+        "department": "Computer Engineering",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Study programming, data structures, algorithms, databases, operating systems and software systems."
+    },
+    {
+        "name": "B.Tech Civil Engineering",
+        "department": "Civil Engineering",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Learn structural design, construction, surveying, transportation and sustainable infrastructure."
+    },
+    {
+        "name": "B.Tech Mechanical Engineering",
+        "department": "Mechanical Engineering",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Explore thermodynamics, manufacturing, machine design, robotics and mechanical systems."
+    },
+    {
+        "name": "B.Tech Electrical Engineering",
+        "department": "Electrical Engineering",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Study electrical circuits, power systems, control systems, machines and modern energy technologies."
+    },
+    {
+        "name": "B.Tech Electronics Engineering",
+        "department": "Electronics Engineering",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Learn electronic circuits, communication systems, embedded systems, microcontrollers and digital design."
+    },
+    {
+        "name": "B.Tech Information Technology",
+        "department": "Information Technology",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Build skills in web development, cloud computing, databases, networking and information systems."
+    },
+    {
+        "name": "B.Tech Artificial Intelligence & Data Science",
+        "department": "AI & Data Science",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Learn data analysis, machine learning, artificial intelligence, statistics and intelligent applications."
+    },
+    {
+        "name": "B.Tech Computer Science & Engineering",
+        "department": "Computer Science",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Develop strong foundations in computing, software engineering, algorithms, networks and modern applications."
+    },
+    {
+        "name": "B.Tech Electronics & Communication",
+        "department": "Electronics & Communication",
+        "duration": 4,
+        "level": "Undergraduate",
+        "description": "Study communication engineering, signal processing, electronics, wireless systems and embedded technology."
+    },
+    {
+        "name": "BBA",
+        "department": "Management",
+        "duration": 3,
+        "level": "Undergraduate",
+        "description": "Develop foundations in management, marketing, finance, entrepreneurship and business communication."
+    },
+    {
+        "name": "BCA",
+        "department": "Computer Applications",
+        "duration": 3,
+        "level": "Undergraduate",
+        "description": "Learn programming, databases, web development, software applications and computer fundamentals."
+    },
+    {
+        "name": "B.Com",
+        "department": "Commerce",
+        "duration": 3,
+        "level": "Undergraduate",
+        "description": "Study accounting, business law, economics, taxation and financial management."
+    },
+    {
+        "name": "MBA",
+        "department": "Management",
+        "duration": 2,
+        "level": "Postgraduate",
+        "description": "Build advanced knowledge of management, strategy, finance, marketing, operations and leadership."
+    },
+    {
+        "name": "MCA",
+        "department": "Computer Applications",
+        "duration": 2,
+        "level": "Postgraduate",
+        "description": "Advance your computing skills through software development, databases, networks and application design."
+    },
+    {
+        "name": "M.Tech Computer Engineering",
+        "department": "Computer Engineering",
+        "duration": 2,
+        "level": "Postgraduate",
+        "description": "Explore advanced computing concepts, research methods, system design and specialized engineering topics."
+    },
+    {
+        "name": "M.Tech Civil Engineering",
+        "department": "Civil Engineering",
+        "duration": 2,
+        "level": "Postgraduate",
+        "description": "Study advanced structural, construction, transportation and infrastructure engineering concepts."
+    },
+    {
+        "name": "M.Tech Mechanical Engineering",
+        "department": "Mechanical Engineering",
+        "duration": 2,
+        "level": "Postgraduate",
+        "description": "Explore advanced mechanical design, manufacturing, thermal systems and engineering analysis."
+    },
+    {
+        "name": "M.Tech Electrical Engineering",
+        "department": "Electrical Engineering",
+        "duration": 2,
+        "level": "Postgraduate",
+        "description": "Study advanced power, control, electrical machines, smart grids and energy systems."
+    },
+    {
+        "name": "M.Sc Computer Science",
+        "department": "Computer Science",
+        "duration": 2,
+        "level": "Postgraduate",
+        "description": "Strengthen theoretical and practical computing knowledge through algorithms, software and data-oriented study."
+    },
+    {
+        "name": "M.Com",
+        "department": "Commerce",
+        "duration": 2,
+        "level": "Postgraduate",
+        "description": "Develop advanced understanding of accounting, finance, taxation, business and commerce."
+    }
+]

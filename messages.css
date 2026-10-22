@@ -1,0 +1,5 @@
+.message{padding:12px;border-radius:4px;margin:14px 0;font-size:14px}
+.success{background:#e8f5e9;border:1px solid #9ccc9c;color:#205b26}
+.error{background:#ffebee;border:1px solid #e6a0a8;color:#8a1c26}
+.info{background:#eef4ff;border:1px solid #b7c9f2;color:#1d3f91}
+.muted{color:#555}

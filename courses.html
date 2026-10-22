@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - StudentHub</title>
+    <link rel="stylesheet" href="course.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="logo" href="Home.php">StudentHub</a>
+            <nav>
+                <a href="Home.php">Home</a>
+                <a class="active" href="courses.html">Courses</a>
+                <a href="result.html">Results</a>
+                <a href="Profile.html">Profile</a>
+                <a href="contact.php">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="courses-hero">
+            <div class="container">
+                <h1>Explore Courses</h1>
+                <p>Find the course that matches your interests and career goals.</p>
+            </div>
+        </section>
+
+        <section class="course-tools container">
+            <div class="search-box">
+                <label for="searchInput">Search courses</label>
+                <input type="text" id="searchInput"
+                       placeholder="Search by course, department or keyword">
+            </div>
+
+            <div class="control-group">
+                <label for="departmentFilter">Department</label>
+                <select id="departmentFilter">
+                    <option value="all">All Departments</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="levelFilter">Level</label>
+                <select id="levelFilter">
+                    <option value="all">All Levels</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="sortSelect">Sort By</label>
+                <select id="sortSelect">
+                    <option value="default">Default</option>
+                    <option value="name-asc">Name A-Z</option>
+                    <option value="name-desc">Name Z-A</option>
+                    <option value="duration-asc">Duration: Low to High</option>
+                    <option value="duration-desc">Duration: High to Low</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="course-list-section container">
+            <div class="course-summary">
+                <h2>Available Courses</h2>
+                <p id="courseCount">Loading courses...</p>
+            </div>
+
+            <div id="courseContainer" class="course-grid"></div>
+            <p id="noResults" class="no-results" hidden>No courses match your search or filter.</p>
+            <p id="errorMessage" class="error-message" hidden>
+                Could not load course data. Please make sure the project is running through a local server.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    </footer>
+
+    <script src="courses.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - StudentHub</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="Home.php">StudentHub</a>
+        <nav>
+            <a href="Home.php">Home</a>
+            <a href="courses.html">Courses</a>
+            <a class="active" href="result.html">Results</a>
+            <a href="Profile.html">Profile</a>
+            <a href="contact.php">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="result-heading">
+            <h1>Course Results</h1>
+            <p>View the result status for all courses available in StudentHub.</p>
+        </section>
+
+        <section class="results-section">
+            <h2>Available Course Results</h2>
+            <p id="resultCount">Loading results...</p>
+
+            <div class="result-table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                            <th>Department</th>
+                            <th>Level</th>
+                            <th>Duration</th>
+                            <th>Result Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultTableBody"></tbody>
+                </table>
+            </div>
+
+            <p id="resultError" class="error-message" hidden>
+                Could not load course results. Please open the site through XAMPP (http://localhost/StudentHub/).
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    </footer>
+
+    <script src="result.js"></script>
+</body>
+</html>
